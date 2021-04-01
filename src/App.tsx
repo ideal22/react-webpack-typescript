@@ -1,7 +1,11 @@
 import React from 'react'
 
-const App = () => {
-  return <div>React TypeScript App</div>
+const App: React.FC = (): React.ReactElement => {
+  return (
+    <div>
+      <h2>React TypeScript</h2>
+    </div>
+  )
 }
 
 export default App
